@@ -14,6 +14,13 @@ namespace Office365ConnectorSDK
             context = "http://schema.org";
             type = "ViewAction";
         }
+        public PotentialAction(string name, string target)
+        {
+            context = "http://schema.org";
+            type = "ViewAction";
+            this.name = name;
+            this.target = new List<string> { target };
+        }
         [JsonProperty(PropertyName = "@context")]
         public string context { get; set; }
         [JsonProperty(PropertyName = "@type")]
