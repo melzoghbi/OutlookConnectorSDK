@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGCSDKConsoleClient", "OGCS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapp45", "webapp45\webapp45.csproj", "{329DE1FD-CE24-463E-A89C-E0D344F7C567}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{3854CE54-5DE5-48A7-90A9-89830DF09078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{5BF9F725-7149-4E49-BF03-8F328F24540A}"
+	ProjectSection(SolutionItems) = preProject
+		DBScripts\ConnectorDB.sql = DBScripts\ConnectorDB.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BF9F725-7149-4E49-BF03-8F328F24540A} = {3854CE54-5DE5-48A7-90A9-89830DF09078}
 	EndGlobalSection
 EndGlobal
