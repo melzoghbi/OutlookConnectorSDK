@@ -14,7 +14,7 @@ namespace OGCSDKConsoleClient
         {
             Console.WriteLine("Enter a message title");
             SendMessage(Console.ReadLine()).Wait();
-            Console.WriteLine("A message has been sent!");
+            Console.WriteLine("A message has been sent successfully!");
             Console.ReadLine();
         }
 
