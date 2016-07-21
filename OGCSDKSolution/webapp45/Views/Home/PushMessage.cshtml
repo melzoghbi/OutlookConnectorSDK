@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Push Messages to office 365 Connectors";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+@using (Html.BeginForm("PushMessage2", "Home"))
+{
+<table>
+    <tr>
+        <td>
+            Message Title:
+        </td>
+        <td>
+          <input type="text" id="txtMessage" name="txtMessage" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Group Name:
+        </td>
+        <td>
+            <input id="txtGroupName" name="txtGroupName" value="@ViewData["groupName"]" />
+        </td>
+    </tr>
+    <tr>
+        <td>Hit submit</td>
+        <td>
+           <input id="btnSubmit" type="submit" value="submit" />
+        </td>
+    </tr>
+</table>
+}

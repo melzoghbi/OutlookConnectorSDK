@@ -1,0 +1,50 @@
+﻿{
+  \"summary\": \"New Comment by Ben Quillen on \"Fabrikam Forum\",
+  \"title\": null,
+  \"text\": null,
+  \"themeColor\": \"#3479BF\",
+  \"sections\": [
+    {
+      \"title\": null,
+      \"text\": null,
+      \"markdown\": true,
+      \"facts\": [
+        {
+          \"name\": \"Added By\",
+          \"value\": \"Ben Quillen\"
+        },
+        {
+          \"name\": \"Date\",
+          \"value\": \"15-12-2015\"
+        },
+        {
+          \"name\": \"Priority\",
+          \"value\": \"Medium\"
+        },
+        {
+          \"name\": \"State\",
+          \"value\": \"Active\"
+        }
+      ],
+      \"images\": null,
+      \"activityTitle\": \"Ben Quillen commented\",
+      \"activitySubtitle\": \"on \\"Fabrikam Forum\",
+      \"activityText\": \"We should prioritize this effort.\",
+      \"activityImage\": \"https://cdn0.iconfinder.com/data/icons/PRACTIKA/256/user.png\",
+      \"activityImageType\": null,
+      \"potentialAction\": null
+    }
+  ],
+  \"potentialAction\": [
+    {
+      \"@context\": \"http://schema.org\",
+      \"@type\": \"ViewAction\",
+      \"name\": \"View in Sandbox\",
+      \"target\": [
+        \"http://microsoft.com\"
+      ]
+    }
+  ],
+  \"footer\": null,
+  \"replyTo\": null
+}
