@@ -1,7 +1,7 @@
 # OutlookConnectorSDK
-Outlook Group Connector SDK simplifies your code in C# to send comprehensive Json payload in C# objects
+Outlook Group Connector SDK simplifies your code in C# to send comprehensive Json payload (Canvas) that contains activities, tables, images and action links.
 
-This SDK has been packaged and deployed to Nuget website, here is the link for the nuget package: 
+This SDK has been packaged and deployed to NuGet website, here is the link for the nuget package: 
 https://www.nuget.org/packages/Office365ConnectorSDK/
 
 How to use this SDK in your applications:
