@@ -244,4 +244,5 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-
+# Config Files
+/OGCSDKSolution/OGCSDKConsoleClient/App.config
