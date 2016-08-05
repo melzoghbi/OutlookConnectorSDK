@@ -60,5 +60,6 @@ This is the [SDK NuGet package](https://www.nuget.org/packages/Office365Connecto
                 '''
 
 This is how the outlook group connector message looks like:
+![ogcmessagescreenshot](https://cloud.githubusercontent.com/assets/11993393/17452149/906877e4-5b3a-11e6-94d8-d28c38fcf663.PNG)
 
 Please let me know if you want to contribute or add features to this sdk.
