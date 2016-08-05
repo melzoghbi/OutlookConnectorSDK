@@ -11,7 +11,7 @@ This folder contains webrole in a cloud service that sends messages to an outloo
     This worker role is a sample app in case you want to have a continuously running backend service 
     that pushes messages to outlook groups based on your logic in the worker role.
 
-## 2) Microservices Folder
+## 2) Microservices Folder (Using service fabric)
 This folder contains service fabric web api that sends a message to an outlook group for a given webhook url.
 ### Project Names:
     a) OGCSFApp: Service Fabric Application project.
@@ -24,15 +24,14 @@ This project contains the source code for published "Outlook365OutlookConnectorS
 ## 4) webapp45: 
 A sample asp.net web application runs on .NET 4.5 and uses the SDK NuGet package.
 
-## 5) OGCSDKConsoleClient: A sample console application that uses the SDK NuGet package.
+## 5) OGCSDKConsoleClient: 
+A sample console application that uses the SDK NuGet package.
 
-
-This SDK has been packaged and deployed to NuGet website, here is the download link: 
-https://www.nuget.org/packages/Office365ConnectorSDK/
 
 ** How to use this SDK in your applications: **
 
 1) Install Office365OutlookConnectorSDK nuget package from Visual Studio into your project.
+This is the [SDK NuGet package](https://www.nuget.org/packages/Office365ConnectorSDK/) download link.
 
 2) Here is how to construct a comprehensive message with images, tables and activity details and send it to an outlook group:
 
