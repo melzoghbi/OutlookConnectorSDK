@@ -1,6 +1,9 @@
 # OutlookConnectorSDK
 Outlook Group Connector SDK simplifies your code in C# to send comprehensive Json payload (Canvas) that contains activities, tables, images and action links.
 
+Sample Application for registering and send messages is live here: https://github.com/melzoghbi/OutlookConnectorSDK
+
+
 This solution contains the following:
 
 ## 1) CloudServices Folder
@@ -61,5 +64,16 @@ This is the [SDK NuGet package](https://www.nuget.org/packages/Office365Connecto
 
 This is how the outlook group connector message looks like:
 ![ogcmessagescreenshot](https://cloud.githubusercontent.com/assets/11993393/17452149/906877e4-5b3a-11e6-94d8-d28c38fcf663.PNG)
+
+## A live sample showcase for outlook connectors integration web app
+I have built this application that demonstrates outlook connector integration showcase that includes an integration for "Connect to Office 365" button in a third party website and how to send a detailed canvas messages to a group.
+
+### How to Use it:
+
+•Outlook Connector landing page: Click on "Enterprise" menu item, install our connector into one of your office 365 groups.
+•Send a message to any group: Click on "Send Message" menu item, set a title message and group name and click on Send button. Check your group and you will be notified with a full detailed canvas message.
+
+Application Url: http://outlookconnectorwebapp.azurewebsites.net/
+
 
 Please let me know if you want to contribute or add features to this sdk.
