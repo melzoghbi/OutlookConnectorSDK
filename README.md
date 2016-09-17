@@ -1,9 +1,6 @@
 # OutlookConnectorSDK
 Outlook Group Connector SDK simplifies your code in C# to send comprehensive Json payload (Canvas) that contains activities, tables, images and action links.
 
-Sample Application for registering and send messages is live here: https://github.com/melzoghbi/OutlookConnectorSDK
-
-
 This solution contains the following:
 
 ## 1) CloudServices Folder
